@@ -4,34 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Komunitas Mineaese</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Selamat Datang di Komunitas Mineaese</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#community">Komunitas</a></li>
+                <li><a href="#news">Berita</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#sejarah">Sejarah</a></li>
-            <li><a href="#anggota">Anggota</a></li>
-            <li><a href="#kegiatan">Kegiatan</a></li>
-        </ul>
-    </nav>
-    <section id="sejarah">
-        <h2>Sejarah Komunitas</h2>
-        <p>Komunitas Mineaese didirikan pada tahun 2020...</p>
-    </section>
-    <section id="anggota">
-        <h2>Anggota Komunitas</h2>
-        <p>Berikut adalah anggota-anggota kami...</p>
-    </section>
-    <section id="kegiatan">
-        <h2>Kegiatan Kami</h2>
-        <p>Kegiatan yang kami lakukan meliputi...</p>
-    </section>
+    <main>
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah komunitas penggemar Minecraft yang berdedikasi untuk berbagi pengalaman dan kreasi.</p>
+        </section>
+        <section id="community">
+            <h2>Komunitas Kami</h2>
+            <p>Temui anggota kami dan lihat kreasi mereka.</p>
+        </section>
+        <section id="news">
+            <h2>Berita Terbaru</h2>
+            <p>Ikuti berita dan tutorial terbaru seputar Minecraft.</p>
+        </section>
+        <section id="contact">
+            <h2>Kontak Kami</h2>
+            <form>
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2023 Komunitas Mineaese</p>
+        <p>&copy; 2023 Komunitas Mineaese. Semua hak dilindungi.</p>
     </footer>
     <script src="script.js"></script>
 </body>
