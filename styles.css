@@ -1,16 +1,16 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #e0f7fa; /* Biru muda */
-    color: #4a4a4a; /* Warna teks */
     margin: 0;
     padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
 }
 
 header {
-    background-color: #00796b; /* Hijau */
+    background-color: #4567b7;
     color: white;
-    text-align: center;
     padding: 20px;
+    text-align: center;
 }
 
 nav ul {
@@ -23,20 +23,47 @@ nav ul li {
     margin: 0 15px;
 }
 
-nav a {
+nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #4a4a4a;
+}
+
+h1, h2 {
+    margin: 10px 0;
 }
 
 section {
     padding: 20px;
     margin: 10px;
-    background-color: #d7ccc8; /* Coklat muda */
+    background-color: #8bc34a;
+    border-radius: 8px;
 }
 
-footer {
-    text-align: center;
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
     padding: 10px;
-    background-color: #00796b; /* Hijau */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4567b7;
     color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #345a8b;
 }
