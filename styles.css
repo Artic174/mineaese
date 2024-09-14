@@ -1,13 +1,16 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e0f7fa; /* Biru muda */
+    color: #4a4a4a; /* Warna teks */
     margin: 0;
     padding: 0;
-    color: #333;
 }
 
 header {
-    background-color: #4CAF50;
-    padding: 10px;
+    background-color: #00796b; /* Hijau */
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 nav ul {
@@ -17,31 +20,23 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 15px;
 }
 
-.hero {
-    background-image: url('https://files.catbox.moe/22sstt.jpg');
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
+nav a {
+    text-decoration: none;
+    color: #4a4a4a;
 }
 
-.features {
+section {
     padding: 20px;
-    background-color: #f4f4f4;
-}
-
-.feature {
-    margin: 20px 0;
+    margin: 10px;
+    background-color: #d7ccc8; /* Coklat muda */
 }
 
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
     padding: 10px;
+    background-color: #00796b; /* Hijau */
+    color: white;
 }
