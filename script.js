@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+/*document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form');
     form.addEventListener('submit', (event) => {
         event.preventDefault();
@@ -8,3 +8,4 @@ document.addEventListener('DOMContentLoaded', () => {
         form.reset();
     });
 });
+*/
